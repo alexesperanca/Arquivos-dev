@@ -1,0 +1,11 @@
+api_url: "http://arquivo.pt/textsearch"
+ret_max: 100
+search:
+  keywords: ["excesso nutriente", "deficiência nutriente", "carência nutriente"]
+  years: (1996, 2022)
+  levels:
+    1: ["https://revistas.rcaap.pt/"]
+    2: ["https://revistas.rcaap.pt/", "https://expresso.pt/", "http://www.publico.pt", "https://www.jn.pt/", "https://www.dn.pt/", "https://www.cmjornal.pt/"]
+    3: [""]
+  directory: "./data/json_files"
+  search_level: 3
